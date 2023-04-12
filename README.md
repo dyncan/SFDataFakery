@@ -21,8 +21,8 @@ A simple and easy Salesforce data generation tool.
 
 ### Set up scratch org
 
-- Run `cci org scratch dev dev30 --days 30 --default` to create a dev30 scratch org with 30 day expiring setting and set it as a default, If you want to delete dev30 org template run: `cci org remove dev30`
-- Run `cci org browser dev30` to open an org named dev30
+- Run `cci org scratch dev dev30 --days 30 --default` to create a dev30 scratch org with 30 day expiring setting and set it as a default, If you want to delete dev30 org template run: `cci org remove dev30`.
+- Run `cci org browser dev30` to open an org named dev30.
 
 ### Salesforce Account Example
 
