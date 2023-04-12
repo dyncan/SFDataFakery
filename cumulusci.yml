@@ -1,0 +1,22 @@
+minimum_cumulusci_version: '3.71.0'
+project:
+    name: SFDataFakery
+    package:
+        name: SFDataFakery
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/SFDataFakery/tests
+            options:
+                outputdir: robot/SFDataFakery/results
+
+    robot_testdoc:
+        options:
+            path: robot/SFDataFakery/tests
+            output: robot/SFDataFakery/doc/SFDataFakery_tests.html
+
